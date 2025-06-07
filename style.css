@@ -1,7 +1,7 @@
 body {
     font-family: 'roboto', sans-serif;
     background-color:black;
-    color:cornsilk;
+    color:black;
     margin:0;
     padding: 20px;
 }
@@ -17,4 +17,10 @@ p {
 a {
     color:gold;
     text-decoration: double;
+}
+
+div.caixa {
+    border: 1px blanchedalmond;
+    padding: 40px;
+    background-color:deeppink;
 }
