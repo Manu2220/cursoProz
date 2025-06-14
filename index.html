@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="site para curso proz" content="recife, tecnologia, curso recife, tecnologia para mulheres">
+        <meta name="description" content="recife, tecnologia, curso recife, tecnologia para mulheres">
         <title>Minha Primeira Página</title>
         <link rel="stylesheet" href="style.css">
     </head>
@@ -11,24 +11,34 @@
         <header>
             <h1>Bem-vinda ao meu site!</h1>
         </header>
+
         <main>
             
-        </main>
         <p>Entre em contato através do:</p>
-            <a href="https://www.google.com">
+        <a href="https://www.google.com"> 
                 <button onclick="mostrarMensagem()">Me clique</button>
                 </a>
                 <div class="caixa">
                     <h2>Bem-vinda!</h2>
                     <p>Esta é uma caixa de conteúdo.</p>
                     </div>
+
                     <div>
                         <h2>Digite um Número:</h2>
                         <input type="number" id="numero">
-                        <button onclick="verificarNumero()">verificar</button>
-                        <div id=" resultado"></div>
+                        <button onclick="verificarNumero()" >Verificar</button>
+                        <div id="resultado"></div>
+
+                    <div>
+                    <button onclick="executarFor()">Executar Exercício de For</button>
+                    <p id="saida"></p>
                     </div>
 
-    </body>
+                    <button onclick="executarArray()">Executar Exercício de Array</button>
+                    <p id="saida"></p>
+                    </div>
+
+                </main>
+     </body>
     <script src="script.js"></script>
 </html>
